@@ -1,0 +1,308 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta content="" name="description" />
+    <meta content="webthemez" name="author" />
+    <title>发帖</title>
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+    <link href="assets/css/checkbox3.min.css" rel="stylesheet" >
+    <link href="assets/css/custom-styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/js/Lightweight-Chart/cssCharts.css">
+    <link rel="shortcut icon" href="assets/img/logo.jpg"> 
+</head>
+
+<body>
+    <div id="wrapper">
+         <nav class="navbar navbar-default top-navbar" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
+                    <span class="sr-only">导航</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="personalpage.html"><img src="assets/img/logo2.png"></a>
+								<div id="sideNav" href="">
+										<i class="fa fa-bars icon"></i> 
+								</div>
+            </div>
+
+            <ul class="nav navbar-top-links navbar-right">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
+                        <i class="fa fa-bell fa-fw"></i> <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-alerts">
+                        <li>
+                            <a href="comment.html">
+                                <div>
+                                    <i class="fa fa-comment fa-fw"></i>新评论
+                                    <span class="pull-right text-muted small">4 min</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="compliment.html">
+                                <div>
+                                    <i class="fa fa-heart fa-fw"></i>新点赞
+                                    <span class="pull-right text-muted small">4 min</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="concern.html">
+                                <div>
+                                    <i class="fa fa-plus fa-fw"></i>新关注者
+                                    <span class="pull-right text-muted small">12 min</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="message.html">
+                                <div>
+                                    <i class="fa fa-envelope fa-fw"></i>新消息
+                                    <span class="pull-right text-muted small">4 min</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
+                        <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-user">
+                       <li><a href="personalpage.html"><i class="fa fa-pagelines fa-fw"></i> 个人主页</a>
+                        </li>
+                        <li><a href="profile.html"><i class="fa fa-user fa-fw"></i> 个人信息</a>
+                        </li>
+                        <li><a href="setting.html"><i class="fa fa-gear fa-fw"></i> 设置</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li><a href="../home/home.html"><i class="fa fa-sign-out fa-fw"></i> 登出</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <nav class="navbar-default navbar-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav" id="main-menu">
+                   <li>
+                        <a href="personalpage.html"><i class="fa fa-pagelines"></i>个人主页</a>
+                    </li>
+                    <li>
+                        <a class="active-menu" href="post.html"><i class="fa fa-pencil"></i>发帖</a>
+                    </li>
+                    <li>
+                    		<a href="profile.html"><i class="fa fa-file-text"></i>个人资料</a>
+                    </li>
+                    <li>
+                    		<a href="comment.html"><i class="fa fa-comment"></i>评论</a>
+                    </li> 
+                    <li>
+                    		<a href="compliment.html"><i class="fa fa-heart"></i>喜欢和赞</a>
+                    </li>  
+                    <li>
+                    		<a href="concern.html"><i class="fa fa-plus"></i>关注</a>
+                    </li> 
+                    <li>
+                    		<a href="message.html"><i class="fa fa-envelope"></i>消息</a>
+                    </li> 
+                    <li>
+                    		<a href="setting.html"><i class="fa fa-gears"></i>设置</a>
+                    </li>                   
+                </ul>
+						</div>
+        </nav>
+      
+		<div id="page-wrapper">
+		  	<div class="header"> 
+            <h1 class="page-header">你在想什么?<small>xxx（名字）</small></h1>
+						<ol class="breadcrumb">
+					  		<li><a href="../home/homeafter.html">首页</a></li>
+					  		<li><a href="post.html">发帖</a></li>
+						</ol> 									
+				</div>
+        <div id="page-inner">
+             <div class="row">
+                <div class="col-md-2 col-sm-12 col-xs-12">
+										<div class="board">
+                        <div class="panel panel-primary">
+														<div class="number">
+																<h3><h3>0</h3><small>关注</small></h3> 
+														</div>
+														<div class="icon">
+						                    <i class="fa fa-eye fa-5x green"></i>
+						                </div>
+                        </div>
+										</div>
+                 </div>
+					
+					       <div class="col-md-2 col-sm-12 col-xs-12">
+										<div class="board">
+                        <div class="panel panel-primary">
+														<div class="number">
+																<h3><h3>0</h3><small>粉丝</small></h3> 
+														</div>
+														<div class="icon">
+						                    <i class="fa fa-users fa-5x blue"></i>
+						                </div>
+                        </div>
+										</div>
+                 </div>
+					
+					        <div class="col-md-2 col-sm-12 col-xs-12">
+										<div class="board">
+                        <div class="panel panel-primary">
+														<div class="number">
+																<h3><h3>0</h3><small>点赞</small></h3> 
+														</div>
+														<div class="icon">
+						                    <i class="fa fa-heart fa-5x red"></i>
+						                </div>
+                        </div>
+										</div>
+                 </div>
+					
+					        <div class="col-md-2 col-sm-12 col-xs-12">
+										<div class="board">
+                        <div class="panel panel-primary">
+														<div class="number">
+																<h3><h3>0</h3><small>评论</small></h3> 
+														</div>
+														<div class="icon">
+						                    <i class="fa fa-comments fa-5x yellow"></i>
+						                </div>
+                        </div>
+										</div>
+                 </div>
+                 
+                 <div class="col-md-2 col-sm-12 col-xs-12">
+										<div class="board">
+                        <div class="panel panel-primary">
+														<div class="number">
+																<h3><h3>0</h3><small>文章</small></h3> 
+														</div>
+														<div class="icon">
+						                    <i class="fa fa-paperclip fa-5x purple"></i>
+						                </div>
+                        </div>
+										</div>
+                 </div>
+               </div>
+				     
+				     	<div class="row">
+                        <div class="col-xs-12">					
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <div class="card-title">
+                                        <div class="title">文章基本信息</div>
+                                    </div>
+                                </div>
+                                <div class="panel-body">
+                                    <form class="form-inline">
+                                        <div class="form-group">
+                                            <label for="exampleInputName2">作者名</label>
+                                            <input type="text" class="form-control" id="exampleInputName2" placeholder="whucs">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail2">标签</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail2" placeholder="请用逗号隔开">
+                                        </div>
+                                        <div class="radio3 radio-check radio-inline">
+                                            <input type="radio" id="radio1" name="radio2" value="option1" checked="">
+                                            <label for="radio1">
+                                              所有人可见
+                                            </label>
+                                          </div>
+                                          <div class="radio3 radio-check radio-success radio-inline">
+                                            <input type="radio" id="radio2" name="radio2" value="option2">
+                                            <label for="radio2">
+                                              仅好友可见
+                                            </label>
+                                          </div>
+                                          <div class="radio3 radio-check radio-warning radio-inline">
+                                            <input type="radio" id="radio3" name="radio2" value="option3">
+                                            <label for="radio3">
+                                              仅自己可见
+                                            </label>
+                                          </div>
+                                          <div class="radio3 radio-check radio-warning radio-inline">
+                                            <input type="radio" id="radio4" name="radio2" value="option4">
+                                            <label for="radio4">
+                                              匿名发表
+                                            </label>
+                                          </div>
+                                          <div class="form-group">
+                                           <p></p>
+                                            <label for="exampleInputFile">文章封面：（300px&times;240px）</label>
+                                            <input type="file" id="exampleInputFile" onchange="verificationPicFile(this)">
+                                        </div>
+                                         <hr>
+                                           
+                                            <script id="container" name="content" type="text/plain">
+        																			  
+  																					</script>
+                                 				<br>
+                                  				<div class="pull-right">
+                                   						<input type="submit" class="btn btn-default btn-success" value="发布">
+                                   				</div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>		
+				<footer><p>Copyright &copy; 2018&nbsp;天窗</p></footer>
+        </div>
+    </div>
+		</div>
+		<script src="assets/js/jquery-1.10.2.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.metisMenu.js"></script>
+    <script src="assets/js/custom-scripts.js"></script> 
+    <script type="text/javascript" src="utf8-asp/ueditor.config.js"></script>
+    <script type="text/javascript" src="utf8-asp/ueditor.all.js"></script>
+    <script type="text/javascript">
+        var ue = UE.getEditor('container');
+    </script>
+    <script>
+function verificationPicFile(file) {
+    var filePath = file.value;
+    if(filePath){
+        var filePic = file.files[0];
+        var reader = new FileReader();
+        reader.onload = function (e) {
+            var data = e.target.result;
+            var image = new Image();
+            image.onload=function(){
+                var width = image.width;
+                var height = image.height;
+                if (width == 300 | height == 240){
+                    alert("文件尺寸符合！");
+                }else {
+                    alert("文件尺寸应为：300*240！");
+                    file.value = "";
+                    return false;
+                }
+            };
+            image.src= data;
+        };
+        reader.readAsDataURL(filePic);
+    }else{
+        return false;
+    }
+}
+</script>
+</body>
+   
+
+</html>

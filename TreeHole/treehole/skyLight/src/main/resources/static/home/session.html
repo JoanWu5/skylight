@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>专题</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css" id="theme-styles">
+  	<link rel="stylesheet" href="css/index.css"> 
+  	<link rel="shortcut icon" href="img/logo.jpg">  
+</head>
+
+<body>
+    <header>
+        <div class="widewrapper masthead">
+            <div class="container">
+                <a href="home.html" id="logo">
+                    <img src="img/logo.png" alt="clean Blog">
+                </a>
+                
+                <nav class="pull-right clean-nav">
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav nav-pills navbar-nav">
+                         	<li>
+                          	<a href="../post/personalpage.html"><img src="img/default.png" style="width:100px;height:100px;border-radius: 100px;"><p style="text-align: center;margin-top:20px;">Tom</p></a>                    
+                          </li> 
+                        </ul>
+                    </div>
+                </nav>        
+
+            </div>
+        </div>
+    </header>
+
+     <div class="widewrapper main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 blog-main">
+                  	<div class="col-lg-12">
+                 				<img src="img/session.png" style="width:700px;margin-bottom: 20px;">
+                 		</div>
+                   	<div class="main-cont main-user">
+        							<ul class="main-cont__list clearfix">
+          								<li class="item">
+            									<img src="img/cont/user_img1.jpg" class="pic">
+            									<a href="story.html" class="headImg"><img src="img/cont/head_img1.jpg" alt="#"></a>
+            									<div class="info">
+              										<a href="story.html" class="info-title"><strong>故事</strong></a>
+              										<p>0篇文章，0人关注</p>
+              										<button class="btn btn-default" id="story" onClick="changebutton1()">关注</button>
+            									</div>
+          								</li>
+          								<li class="item">
+            									<img src="img/cont/user_img2.jpg" class="pic">
+            									<a href="#" class="headImg"><img src="img/cont/head_img2.jpg" alt="#"></a>
+            									<div class="info">
+              										<a href="#" class="info-title"><strong>英语</strong></a>
+              										<p>0篇文章，0人关注</p>
+              										<button class="btn btn-default" id="english" onClick="changebutton2()">关注</button>
+            									</div>
+          								</li>
+          								<li class="item">
+            									<img src="img/cont/user_img3.jpg" class="pic">
+            									<a href="#" class="headImg"><img src="img/cont/head_img3.jpg" alt="#"></a>
+            									<div class="info">
+              										<a href="#" class="info-title">IT互联网</a>
+              										<p>0篇文章，0人关注</p>
+              										<button class="btn btn-default" id="internet" onClick="changebutton3()">关注</button>
+            									</div>
+          								</li>
+          								<li class="item">
+            									<img src="img/cont/user_img4.jpg" class="pic">
+            									<a href="#" class="headImg"><img src="img/cont/head_img4.jpg" alt="#"></a>
+            									<div class="info">
+              										<a href="#" class="info-title">摄影</a>
+              										<p>0篇文章，0人关注</p>
+              										<button class="btn btn-default" id="photo" onClick="changebutton4()">关注</button>
+            									</div>
+          								</li>
+          								<li class="item">
+            									<img src="img/cont/user_img5.jpg" class="pic">
+            									<a href="#" class="headImg"><img src="img/cont/head_img5.jpg" alt="#"></a>
+            									<div class="info">
+              										<a href="#" class="info-title">旅行</a>
+              										<p>0篇文章，0人关注</p>
+              										<button class="btn btn-default" id="travel" onClick="changebutton5()">关注</button>
+            									</div>
+          								</li>
+          								<li class="item">
+            									<img src="img/cont/user_img6.jpg" class="pic">
+            									<a href="#" class="headImg"><img src="img/cont/head_img6.jpg" alt="#"></a>
+            									<div class="info">
+              										<a href="#" class="info-title">穿搭</a>
+              										<p>0篇文章，0人关注</p>
+              										<button class="btn btn-default" id="dress" onClick="changebutton6()">关注</button>
+            									</div>
+          								</li>
+          								<li class="item">
+            									<img src="img/cont/user_img7.jpg" class="pic">
+            									<a href="#" class="headImg"><img src="img/cont/head_img7.jpg" alt="#"></a>
+            									<div class="info">
+              										<a href="#" class="info-title">电影</a>
+              										<p>0篇文章，0人关注</p>
+              										<button class="btn btn-default" id="movie" onClick="changebutton7()">关注</button>
+            									</div>
+          								</li>
+          								<li class="item">
+            									<img src="img/cont/user_img8.jpg" class="pic">
+            									<a href="#" class="headImg"><img src="img/cont/head_img8.jpg" alt="#"></a>
+            									<div class="info">
+              										<a href="#" class="info-title">美食</a>
+              										<p>0篇文章，0人关注</p>
+              										<button class="btn btn-default" id="food" onClick="changebutton8()">关注</button>
+            									</div>
+          								</li>
+          								<li class="item">
+            									<img src="img/cont/user_img9.jpg" class="pic">
+            									<a href="#" class="headImg"><img src="img/cont/head_img9.jpg" alt="#"></a>
+            									<div class="info">
+              										<a href="#" class="info-title">恋爱</a>
+              										<p>0篇文章，0人关注</p>
+              										<button class="btn btn-default" id="love" onClick="changebutton9()">关注</button>
+            									</div>
+          								</li>
+          								<li class="item">
+            									<img src="img/cont/user_img10.jpg" class="pic">
+            									<a href="#" class="headImg"><img src="img/cont/head_img10.jpg" alt="#"></a>
+            									<div class="info">
+              										<a href="#" class="info-title">美妆</a>
+              										<p>0篇文章，0人关注</p>
+              										<button class="btn btn-default" id="makeup" onClick="changebutton10()">关注</button>
+            									</div>
+          								</li>
+          								<li class="item">
+            									<img src="img/cont/user_img11.jpg" class="pic">
+            									<a href="#" class="headImg"><img src="img/cont/head_img11.jpg" alt="#"></a>
+            									<div class="info">
+              										<a href="#" class="info-title">手绘</a>
+              										<p>0篇文章，0人关注</p>
+              										<button class="btn btn-default" id="draw" onClick="changebutton11()">关注</button>
+            									</div>
+          								</li>
+          								
+        							</ul>
+      							</div>
+                   
+                    <button class="read btn btn-default btn-clean-one" style="float: left;">前一页</button>
+										<button class="read btn btn-default btn-clean-one">阅读更多</button>
+                </div>
+                <aside class="col-md-4 blog-aside">
+                    
+                    <div class="aside-widget">
+                        <header>
+                            <h3>热门</h3>
+                        </header>
+                        <div class="body">
+                            <ul class="clean-list">
+																<li><button class="btn btn-default btn-link" onClick="window.open('hot7.html')">7日热门</button></li>
+                                <li><button class="btn btn-default btn-link" onClick="">30日热门</button></li>
+                                <li><button class="btn btn-default btn-link" onClick="">季度热门</button></li>
+                                <li><button class="btn btn-default btn-link" onClick="">全年热门</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                
+                    <div class="aside-widget">
+                        <header>
+                            <h3>专题</h3>
+                        </header>
+                        <div class="body clearfix">
+                            <ul class="tags">
+                                <li><button class="btn btn-default btn-link" onClick="">英语</button></li>
+                                <li><button class="btn btn-default btn-link" onClick="">手绘</button></li>
+                                <li><button class="btn btn-default btn-link" onClick="">IT互联网</button></li>
+                                <li><button class="btn btn-default btn-link" onClick="window.open('story.html')">故事</button></li>
+                                <li><button class="btn btn-default btn-link" onClick="">旅行</button></li>
+                                <li><button class="btn btn-default btn-link" onClick="">摄影</button></li>
+                            </ul>
+                        </div>
+                        <button class="btn btn-default btn-link" onClick="window.open('session.html')">更多热门专题</button>
+                        
+                    </div>
+
+                </aside>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+      <br>
+       <p>Copyright &copy;2018 天窗</p>
+    </footer>
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/modernizr.js"></script>
+		<script type="text/javascript">
+			var isAdvanced1 = false;
+			function changebutton1(){
+   		isAdvanced1 = !isAdvanced1;
+			var sto = document.getElementById("story");
+   		if (isAdvanced1) {
+				sto.innerHTML="已关注";
+   		} else {
+       	sto.innerHTML="关注";
+   	}
+			}
+			
+			var isAdvanced2 = false;
+			function changebutton2(){
+   		isAdvanced2 = !isAdvanced2;
+			var eg = document.getElementById("english");
+   		if (isAdvanced2) {
+				eg.innerHTML="已关注";
+   		} else {
+       	eg.innerHTML="关注";
+   	}
+			}
+			
+			var isAdvanced3 = false;
+			function changebutton3(){
+   		isAdvanced3 = !isAdvanced3;
+			var inter = document.getElementById("internet");
+   		if (isAdvanced3) {
+				inter.innerHTML="已关注";
+   		} else {
+       	inter.innerHTML="关注";
+   	}
+			}
+			var isAdvanced4 = false;
+			function changebutton4(){
+   		isAdvanced4 = !isAdvanced4;
+			var ph = document.getElementById("photo");
+   		if (isAdvanced4) {
+				ph.innerHTML="已关注";
+   		} else {
+       	ph.innerHTML="关注";
+   	}
+			}
+			var isAdvanced5 = false;
+			function changebutton5(){
+   		isAdvanced5 = !isAdvanced5;
+			var tra = document.getElementById("travel");
+   		if (isAdvanced5) {
+				tra.innerHTML="已关注";
+   		} else {
+       	tra.innerHTML="关注";
+   	}
+			}
+			var isAdvanced6 = false;
+			function changebutton6(){
+   		isAdvanced6 = !isAdvanced6;
+			var dre = document.getElementById("dress");
+   		if (isAdvanced6) {
+				dre.innerHTML="已关注";
+   		} else {
+       	dre.innerHTML="关注";
+   	}
+			}
+			var isAdvanced7 = false;
+			function changebutton7(){
+   		isAdvanced7 = !isAdvanced7;
+			var mov = document.getElementById("movie");
+   		if (isAdvanced7) {
+				mov.innerHTML="已关注";
+   		} else {
+       	mov.innerHTML="关注";
+   	}
+			}
+			var isAdvanced8 = false;
+			function changebutton8(){
+   		isAdvanced8 = !isAdvanced8;
+			var fo = document.getElementById("food");
+   		if (isAdvanced8) {
+				fo.innerHTML="已关注";
+   		} else {
+       	fo.innerHTML="关注";
+   	}
+			}
+			var isAdvanced9 = false;
+			function changebutton9(){
+   		isAdvanced9 = !isAdvanced9;
+			var lo = document.getElementById("love");
+   		if (isAdvanced9) {
+				lo.innerHTML="已关注";
+   		} else {
+       	lo.innerHTML="关注";
+   	}
+			}
+			var isAdvanced10 = false;
+			function changebutton10(){
+   		isAdvanced10 = !isAdvanced10;
+			var mak = document.getElementById("makeup");
+   		if (isAdvanced10) {
+				mak.innerHTML="已关注";
+   		} else {
+       	mak.innerHTML="关注";
+   	}
+			}
+			var isAdvanced11 = false;
+			function changebutton11(){
+   		isAdvanced11 = !isAdvanced11;
+			var drw = document.getElementById("draw");
+   		if (isAdvanced11) {
+				drw.innerHTML="已关注";
+   		} else {
+       	drw.innerHTML="关注";
+   	}
+			}
+			
+	</script>
+</body>
+</html>
